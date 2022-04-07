@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="witdth=device-witdth, initial-scal">
+        <title>Pedido</title>
+    </head>
+    <body>
+        <h1>Haz Tu Pedido</h1>
+        
+        <form action="pedido.js">
+            <label for="Nombre">Danos tu Nombre</label><br>
+            <input type="text" id="nombre" name="nombre" placeholder="nombre">
+    <br><br><br><br>
+            <label for="mesa">Elije tu mesa</label>
+            <input type="number" name="mesa" id="mesa" placeholder="4">
+    <br><br><br><br>        
+            <input type="radio" id="aqui" name="aquiollevar" value="Aqui">
+            <label for="aqui">Aqui</label>
+            <input type="radio" id="llevar"name="aquiollevar" value="llevar">
+            <label for="llevar">llevar</label>
+    <br><br><br><br>
+            <h2>Elija sus Tacos</h2>
+            <input type="checkbox" id="JWT" name="JWT" value="JWT">
+            <label for="JWT">Taco James Web Telescope (pastor)</label>
+            <input type="number" id="JWT_C" name="JWT_C" placeholder="¿Cuantos?">
+    <br>
+            <input type="checkbox" id="MN" name="MN" value="MN">
+            <label for="MN">Taco Materia Negra (tripa)</label>
+            <input type="number" id="MN_C" name="MN_C" placeholder="¿Cuantos?">
+    <br>
+            <input type="checkbox" id="Cosmo" name="Cosmo" value="Cosmo">
+            <label for="Cosmo">Taco Cosmologico (suadero)</label>
+            <input type="number" id="Cosmo_C" name="Cosmo_C" placeholder="¿Cuantos?">
+    <br>
+            <input type="checkbox" id="Fugaz" name="Fugaz" value="Fugaz">
+            <label for="Fugaz">Taco Fugaz (lengua)</label>
+            <input type="number" id="Fugaz_C" name="Fugaz_C" placeholder="¿Cuantos?">
+    <br>
+            <input type="checkbox" id="EP" name="EP" value="EP">
+            <label for="EP">Taco Exoplaneta (Vegano)</label>
+            <input type="number" id="EP_C" name="EP_C" placeholder="¿Cuantos?">
+    <br>
+            <input type="checkbox" id="Perseve" name="Perseve" value="Perseve">
+            <label for="Perseve">Taco Peseverance (ojo)</label>
+            <input type="number" id="Perseve_C" name="Perseve_C" placeholder="¿Cuantos?">
+    <br>
+            <input type="checkbox" id="Estrella" name="Estrella" value="Estrella">
+            <label for="Estrella">Taco estrella (Maciza)</label>
+            <input type="number" id="Estrella_C" name="Estrella_C" placeholder="¿Cuantos?">
+    <br>
+            <input type="checkbox" id="Alien" name="Alien" value="Alien">
+            <label for="Alien">Taco alien(tres Carnes)</label>
+            <input type="number" id="Alien_C" name="Alien_C" placeholder="¿Cuantos?">
+    <br>
+            <input type="checkbox" id="Nasa" name="Nasa" value="Nasa">
+            <label for="Nasa">Taco NASA (Carnes Gringas)</label>
+            <input type="number" id="Nasa_C" name="Nasa_C" placeholder="¿Cuantos?">
+    <br>
+            <input type="checkbox" id="MW" name="MW" value="MW">
+            <label for="MW">Taco Milky Way (Todas las Carnes)</label>
+            <input type="number" id="MW_C" name="MW_C" placeholder="¿Cuantos?">
+    <br>
+            <h2>Para Tomar</h2>
+        <select name="refresco" id="refresco">
+                <option value="Cerveza">Cerveza</option>
+                <option value="Coca-Cola">Coca-Cola</option>
+                <option value="Pepsi">Pepsi</option>
+                <option value="Sprite">Sprite</option>
+                <option value="Fanta">Fanta</option>
+                <option value="FuzaTea">FuzeTea</option>
+                <option value="Agua de Limón">Agua de Limón</option>
+                <option value="Boing">Boing</option>
+        </select>
+            
+        <br><br><br>
+            <input type="reset">
+            <input type="submit">
+        </form>
+
+    </body>
+</html>

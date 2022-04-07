@@ -1,0 +1,314 @@
+
+  /*body{
+    @media screen and (max-width:1200px) and (min-width:750px)
+  }*/
+
+
+  /*Texto ("Vacunación")*/
+  .texto_de_menu{
+    font-size: 24px;
+    background: linear-gradient(45deg, #2848C6, #94A4E7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-weight: bold;
+    position: absolute;
+    top: 2%;
+    left: 10%;
+  }
+
+
+      .triangulo1 {
+        width: 0; 
+        height: 0; 
+        border-left: 70px solid transparent;
+        border-right: 70px solid transparent; 
+        border-top:70px solid #E9F6FD; 
+        position: absolute;
+        left: 85px;
+        top: 90px;
+        
+      }
+      .triangulo2 {
+        width: 0; 
+        height: 0; 
+        border-top: 100px solid transparent;
+        border-bottom: 100px solid transparent; 
+        
+        border-right:100px solid #E9F6FD;  
+        position: absolute;
+        left: 615px;
+        top: 350px;
+      }
+
+      /* DIV con rectangulo azul y primera imagen */
+      .rectangulo{
+          width: 635px;
+          height: 700px;
+        background:linear-gradient(to right, #0999E6,  #21519B);
+        position: absolute;
+        right: 0%;
+        top: 15%;
+        object-fit: cover;
+      }
+
+      .enfermera1{
+        width: 1066.6px;
+        height: 700.83px;
+        align-content: center;
+        position: absolute;
+        right: -25%;
+      }
+
+      .rectangulo_claro{
+        width: 635px; 
+        height: 100px;
+          background: linear-gradient(to right,#E7F3FC ,#EBF7FD);
+          position: absolute;
+          right: 0%;
+          top: 0%;
+      
+      }
+
+          /*Menu principal*/
+          li{
+            color: grey;
+            text-decoration: none;
+            padding: 20px 40px;
+            font-size: 17px;
+            display: block;
+        }
+        ul{
+            list-style: none;
+            position: absolute;
+            right: 6%;
+            height: 0%;
+            
+        }
+
+        li{
+            float: left;
+
+        }
+
+
+        li ul{
+            display: none;
+        }
+        .informate{
+          /*background: linear-gradient(to right #3858cc , #94ace4 );*/
+          color: #fff;
+          background-color: #3858cc;
+          height: 13px;
+        }
+
+            /*texto de inicio*/
+            .LC{
+              color:  #203c74 ;
+              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+              position: absolute;
+              top: 150px;
+              left: 150px;
+            }
+            .Titulo{
+              font-size: 50px;
+            }
+            .estrella{
+              position: absolute;
+              top: 280px;
+              left: 200px;
+            }
+            .palomita{
+              position: absolute;
+              top: 280px;
+
+            }
+
+            /*Programa tus vacaciones*/
+            #PV{
+              display: flex;
+              
+            }
+
+            .programar_cita{
+                background: #FAFCFE;
+                position: absolute;
+                top: 650px;
+                left: 200px;
+                color:grey;
+                opacity: .9;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20px;
+                
+              }
+            .Ubicación{
+              color: #203c74;
+              border: none; 
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 25px;
+            }
+            .fecha{
+              color: #203c74;
+              border: none;
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 25px;
+              position: absolute;
+              left: 340px; 
+            }
+            .Tipo_de_Vacuna{
+              color: #203c74;
+              border: none; 
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 25px;
+              position: absolute;
+              left: 640px;
+            }
+            .vacunas{
+              position: absolute;
+              top: 850px;
+              left: 15%;
+            }
+            .porque_vacunarse{
+              color: grey;
+              position: absolute;
+              top: 1050px;
+              left: 15%;
+              font-family: Arial, Helvetica, sans-serif;
+            }
+            h2{
+              color: #203c74;
+              font-size: 40px;
+            }
+
+            h3{
+              color: #203c74;
+              font-family: Arial, Helvetica, sans-serif;
+            }
+            p{
+              color: grey;
+              font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            .razones{
+              position: relative;              
+              top: 1300px;
+              display: flex;
+              justify-content: space-between;
+              margin-left: 110px;
+              margin-right: 110px;
+              
+            }
+            .razón1{
+              /*height: 150px;*/
+              background-color: #FAFCFE;
+            }
+            .Imagenes_grandes{
+              height: 40px;
+              width: 40px;
+
+            }
+            .Imagenes_chicas{
+              height:30px;
+              width: 30px;
+              position: relative;
+              top: 6px;
+            }
+
+            #enfermera2{
+              position: absolute;
+              top: -74px;
+            }
+
+
+            #triangulo3{
+        width: 0; 
+        height: 0; 
+        border-left: 70px solid #E9F6FD;
+        border-bottom: 70px solid transparent;
+        border-top:70px solid transparent ; 
+        position: absolute;
+        top: 1650px;
+            }
+            /*Preparativos antes de la vacuna*/
+
+            #Preparativos{
+              position: absolute;
+              top: 1650px;
+              left: 48%;
+            }
+
+/*Informacion, de preparatvos, que se despliega con un botton*/
+              .desplegables{
+              position: absolute;
+              left: 48%;
+              background-color: #FAFCFE;
+              }
+      
+            .mastexto{
+              display: none;
+            }
+            .texto.mostrar-mas .mastexto{
+              display: inline;
+            }
+
+
+            /*Contacto  de Emergencia*/
+            .contacto_e{
+              position: absolute;
+              top: 2350px;
+              left: 15%;
+            }
+            #rectangulo3{
+              height: 378px; 
+              width: 481px;
+            background:linear-gradient(to right, #0999E6,  #21519B);
+            position: absolute;
+            right: 0%;
+            top: 2550px;
+            object-fit: cover;
+            }
+            #enfermero1{
+              position: absolute;
+              top: -84px;
+            }
+            #contacto{
+              position: relative;
+              top: 2300px;
+            }
+            #referencias{
+               width: 110%;
+              height: 350px;
+              background-color: #EEF3FF;
+              display: flex;
+            }
+            #Vacunación_a{
+              font-size: 24px;
+              background: linear-gradient(45deg, #2848C6, #94A4E7);
+              background-clip: text;
+              -webkit-background-clip: text;
+              -moz-background-clip: text;
+              -moz-text-fill-color: transparent;
+              -webkit-text-fill-color: transparent;
+              display: inline-block;
+              font-weight: bold;
+             
+            }
+
+            .creditos{
+              position: relative;
+            }
+            
+            #triangulo4{
+                width: 0; 
+                height: 0; 
+                border-left: 90px solid transparent;
+                border-bottom: 90px solid #dcf3ff;
+                border-right:90px solid transparent ; 
+               position: absolute;
+                bottom: 0%;
+                right: 150px;
+                    
+            }

@@ -1,0 +1,46 @@
+/*Menu desplegable*/
+.top{
+    background-color: #e9afa3;
+    
+}
+li{
+    background-color: #aec5eb;
+     color: #685044;
+     text-decoration: none;
+     padding: 15px 30px;
+     display: block;
+}
+ul{
+    list-style: none;
+    
+}
+
+li{
+    float: left;
+
+}
+
+
+li ul{
+    display: none;
+}
+.Información{
+   position: relative;
+    bottom: 100px;
+    left: 80px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+      
+    background-color: #dddddd;
+  }
